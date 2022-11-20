@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-import { Course } from '../shared/interfaces/course.interface';
-import { CoursesService } from '../shared/services/courses/courses.service';
+import { Course } from '@shared/interfaces/course.interface';
+import { CoursesService } from '@shared/services/courses/courses.service';
 
 @Component({
   selector: 'app-courses',

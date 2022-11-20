@@ -21,7 +21,14 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@courses/*": ["./src/app/courses/*"],
+      "@examples/*": ["./src/app/examples/*"],
+      "@home/*": ["./src/app/home/*"],
+      "@login/*": ["./src/app/login/*"],
+      "@shared/*": ["./src/app/shared/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
